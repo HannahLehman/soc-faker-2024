@@ -20,6 +20,4 @@ WORKDIR /app
 RUN export PYTHONPATH=/app:$PYTHONPATH
 RUN python setup.py install
 
-
-
-CMD [ "python", "/app/bin/test.py" ]
+CMD [ "python", "/app/bin/logger.py" ]

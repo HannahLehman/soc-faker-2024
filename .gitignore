@@ -103,3 +103,7 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+
+# generated logs
+generated-pcap.pcap
+soclogger.log
